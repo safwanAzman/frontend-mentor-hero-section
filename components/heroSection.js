@@ -10,8 +10,8 @@ import HeroMobile from '.././public/assets/image-hero-mobile.png'
         return (
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 h-full lg:h-[60vh] px-0 lg:px-32 ">
                 <div className="flex items-center lg:items-start justify-center order-last lg:order-first flex-col px-4 lg:px-0 ">
-                    <h1 className="myFont text-4xl sm:text-5xl lg:text-8xl font-bold text-almostBlack-100">Make remote work</h1>
-                    <p className="myFont text-sm sm:text-base lg:text-xl font-normal text-mediumGray-100 max-w-lg mt-4 lg:mt-10 text-center lg:text-left">
+                    <h1 className="myFont text-4xl sm:text-5xl lg:text-7xl font-bold text-almostBlack-100">Make remote work</h1>
+                    <p className="myFont text-sm sm:text-base lg:text-lg font-normal text-mediumGray-100 max-w-lg mt-4 lg:mt-10 text-center lg:text-left">
                         Get yout team in sync. no matter your location. Streamline processes. 
                         create team rituals.and watch productivity soar.
                     </p>
@@ -36,7 +36,7 @@ import HeroMobile from '.././public/assets/image-hero-mobile.png'
                     </div>
                 </div>
                 <div className="ml-0 lg:ml-20 mb-4 lg:mb-32">
-                    <div className="hidden lg:block ">
+                    <div className="hidden lg:block mt-20">
                         <Image src={HeroDesktop} alt="HeroDesktop" /> 
                     </div>
                     <div className="block lg:hidden ">

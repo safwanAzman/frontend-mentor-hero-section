@@ -11,7 +11,7 @@ export default function Navbar() {
         setIsOpenSidemu(!isOpenSideMenu)
     }
     return (
-        <div className="h-[10vh] mb-0 md:mb-4">
+        <div className="h-[10vh] mb-0 md:-mb-12">
             {/* desktop View */}
             <div className="hidden sm:block">
                 <nav className="flex items-center justify-between">
